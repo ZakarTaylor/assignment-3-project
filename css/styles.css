@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
-.collapse{
-    background-color: aqua;
+.card-text{
+border-radius: 5px;
+background-color: rgb(63, 63, 66);
+padding: 10px;
+}
+
+.back-to-top {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+body:has(#sushi,#beef:target) .back-to-top {
+  opacity: 1;
 }

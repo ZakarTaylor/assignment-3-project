@@ -8,16 +8,16 @@
 
         <title>Fake Menu</title>
 
-        <link rel="stylesheet" href="styles.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
         rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link  href="css/styles.css" rel="stylesheet">
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     </head>
     <body>
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-sm bg-dark" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-sm bg-dark custom-navbar" data-bs-theme="dark" id="ceiling">
             <div class="container-fluid">
                 <a href="#intro" class="navbar-brand fw-bold">Food, LLC</a>
 
@@ -29,24 +29,157 @@
                 </button> <!-- End of mobile nav button -->
 
                 <!-- Nav-links -->
-                <div class="collapse navbar-collapse mt-2 h5" id="main-nav">
+                <div class="collapse navbar-collapse mt-2 h5 custom-collapse" id="main-nav">
                     <ul class="navbar-nav d-sm-none bg-secondary">
-                        <li class="nav-item m-auto py-2 ">
-                            <a href="#chicken" class="nav-link" aria-current="true">Chicken</a>
+                        <li class="nav-item text-center py-2 w-100">
+                            <a href="#chicken" class="nav-link text-white" aria-current="true">Chicken</a>
                         </li>
                         <hr class="border-2 text-black my-0">
-                        <li class="nav-item m-auto py-2">
-                            <a href="#beef" class="nav-link">Beef</a>
+                        <li class="nav-item text-center py-2 w-100">
+                            <a href="#beef" class="nav-link text-white">Beef</a>
                         </li>
                         <hr class="border-2 text-black my-0">
-                        <li class="nav-item m-auto py-2">
-                            <a href="#sushi" class="nav-link">Sushi</a>
+                        <li class="nav-item text-center py-2 w-100">
+                            <a href="#sushi" class="nav-link text-white">Sushi</a>
                         </li>
                     </ul>
                 </div> <!-- End of nav-links -->
 
             </div>
         </nav> <!-- End of navbar -->
+
+        <!-- Main content -->
+        <section id="intro">
+            <div class="container-fluid">
+                    <h1 class="d-flex justify-content-center my-5 fw-bolder">Our Menu</h1>
+                    <div class="row align-items-center text-center justify-content-center">
+                        <div class="col-sm-6 col-lg-4">
+                            <!-- Cards -->
+                            <div class="card bg-dark text-light mb-5 mb-sm-3" id="chicken">
+                                <div class="card-body">
+                                    <div class="card-title display-5 mb-4 fw-bolder">Chicken</div>
+                                    <div class="card-text lead">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit saepe ut tempore repellendus, 
+                                        animi voluptates nobis illo sit aliquid quisquam odio voluptatem excepturi laboriosam atque commodi sequi. 
+                                        Voluptates error ut et praesentium doloribus magni earum necessitatibus neque atque adipisci, consectetur molestias velit amet vel 
+                                        quibusdam mollitia veritatis dignissimos doloremque? Laboriosam non eligendi repellat, fugit neque quia omnis quae consectetur eius qui 
+                                        voluptate tempore blanditiis consequatur eveniet illo veniam maiores voluptatibus nemo dolores, mollitia quaerat rerum accusamus doloribus. 
+                                        Maxime non, facere aliquam, ad illum fuga architecto a voluptates velit sint ex earum sequi excepturi fugit. Possimus natus aliquid veritatis 
+                                        laboriosam aspernatur?
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit saepe ut tempore repellendus, 
+                                        animi voluptates nobis illo sit aliquid quisquam odio voluptatem excepturi laboriosam atque commodi sequi. 
+                                        Voluptates error ut et praesentium doloribus magni earum necessitatibus neque atque adipisci, consectetur molestias velit amet vel 
+                                        quibusdam mollitia veritatis dignissimos doloremque? Laboriosam non eligendi repellat, fugit neque quia omnis quae consectetur eius qui 
+                                        voluptate tempore blanditiis consequatur eveniet illo veniam maiores voluptatibus nemo dolores, mollitia quaerat rerum accusamus doloribus. 
+                                        Maxime non, facere aliquam, ad illum fuga architecto a voluptates velit sint ex earum sequi excepturi fugit. Possimus natus aliquid veritatis 
+                                        laboriosam aspernatur?
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit saepe ut tempore repellendus, 
+                                        animi voluptates nobis illo sit aliquid quisquam odio voluptatem excepturi laboriosam atque commodi sequi. 
+                                        Voluptates error ut et praesentium doloribus magni earum necessitatibus neque atque adipisci, consectetur molestias velit amet vel 
+                                        quibusdam mollitia veritatis dignissimos doloremque? Laboriosam non eligendi repellat, fugit neque quia omnis quae consectetur eius qui 
+                                        voluptate tempore blanditiis consequatur eveniet illo veniam maiores voluptatibus nemo dolores, mollitia quaerat rerum accusamus doloribus. 
+                                        Maxime non, facere aliquam, ad illum fuga architecto a voluptates velit sint ex earum sequi excepturi fugit. Possimus natus aliquid veritatis 
+                                        laboriosam aspernatur?
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit saepe ut tempore repellendus, 
+                                        animi voluptates nobis illo sit aliquid quisquam odio voluptatem excepturi laboriosam atque commodi sequi. 
+                                        Voluptates error ut et praesentium doloribus magni earum necessitatibus neque atque adipisci, consectetur molestias velit amet vel 
+                                        quibusdam mollitia veritatis dignissimos doloremque? Laboriosam non eligendi repellat, fugit neque quia omnis quae consectetur eius qui 
+                                        voluptate tempore blanditiis consequatur eveniet illo veniam maiores voluptatibus nemo dolores, mollitia quaerat rerum accusamus doloribus. 
+                                        Maxime non, facere aliquam, ad illum fuga architecto a voluptates velit sint ex earum sequi excepturi fugit. Possimus natus aliquid veritatis 
+                                        laboriosam aspernatur?
+                                    </div>
+                                    <a href="#ceiling" class="btn btn-secondary btn-lg mt-3 fw-bolder d-sm-none w-50">Back to top</a>
+                                </div>
+                            </div>
+                        </div> <!-- col end -->
+
+                        <div class="col-sm-6 col-lg-4">
+                            <!-- Cards -->
+                            <div class="card bg-dark text-light mb-5 mb-sm-3" id="beef">
+                                <div class="card-body">
+                                    <div class="card-title display-5 mb-4 fw-bolder">Beef</div>
+                                    <div class="card-text lead">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit saepe ut tempore repellendus, 
+                                        animi voluptates nobis illo sit aliquid quisquam odio voluptatem excepturi laboriosam atque commodi sequi. 
+                                        Voluptates error ut et praesentium doloribus magni earum necessitatibus neque atque adipisci, consectetur molestias velit amet vel 
+                                        quibusdam mollitia veritatis dignissimos doloremque? Laboriosam non eligendi repellat, fugit neque quia omnis quae consectetur eius qui 
+                                        voluptate tempore blanditiis consequatur eveniet illo veniam maiores voluptatibus nemo dolores, mollitia quaerat rerum accusamus doloribus. 
+                                        Maxime non, facere aliquam, ad illum fuga architecto a voluptates velit sint ex earum sequi excepturi fugit. Possimus natus aliquid veritatis 
+                                        laboriosam aspernatur?
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit saepe ut tempore repellendus, 
+                                        animi voluptates nobis illo sit aliquid quisquam odio voluptatem excepturi laboriosam atque commodi sequi. 
+                                        Voluptates error ut et praesentium doloribus magni earum necessitatibus neque atque adipisci, consectetur molestias velit amet vel 
+                                        quibusdam mollitia veritatis dignissimos doloremque? Laboriosam non eligendi repellat, fugit neque quia omnis quae consectetur eius qui 
+                                        voluptate tempore blanditiis consequatur eveniet illo veniam maiores voluptatibus nemo dolores, mollitia quaerat rerum accusamus doloribus. 
+                                        Maxime non, facere aliquam, ad illum fuga architecto a voluptates velit sint ex earum sequi excepturi fugit. Possimus natus aliquid veritatis 
+                                        laboriosam aspernatur?
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit saepe ut tempore repellendus, 
+                                        animi voluptates nobis illo sit aliquid quisquam odio voluptatem excepturi laboriosam atque commodi sequi. 
+                                        Voluptates error ut et praesentium doloribus magni earum necessitatibus neque atque adipisci, consectetur molestias velit amet vel 
+                                        quibusdam mollitia veritatis dignissimos doloremque? Laboriosam non eligendi repellat, fugit neque quia omnis quae consectetur eius qui 
+                                        voluptate tempore blanditiis consequatur eveniet illo veniam maiores voluptatibus nemo dolores, mollitia quaerat rerum accusamus doloribus. 
+                                        Maxime non, facere aliquam, ad illum fuga architecto a voluptates velit sint ex earum sequi excepturi fugit. Possimus natus aliquid veritatis 
+                                        laboriosam aspernatur?
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit saepe ut tempore repellendus, 
+                                        animi voluptates nobis illo sit aliquid quisquam odio voluptatem excepturi laboriosam atque commodi sequi. 
+                                        Voluptates error ut et praesentium doloribus magni earum necessitatibus neque atque adipisci, consectetur molestias velit amet vel 
+                                        quibusdam mollitia veritatis dignissimos doloremque? Laboriosam non eligendi repellat, fugit neque quia omnis quae consectetur eius qui 
+                                        voluptate tempore blanditiis consequatur eveniet illo veniam maiores voluptatibus nemo dolores, mollitia quaerat rerum accusamus doloribus. 
+                                        Maxime non, facere aliquam, ad illum fuga architecto a voluptates velit sint ex earum sequi excepturi fugit. Possimus natus aliquid veritatis 
+                                        laboriosam aspernatur?
+                                    </div>
+                                    <a href="#ceiling" class="btn btn-secondary btn-lg mt-3 fw-bolder d-sm-none w-50">Back to top</a>
+                                </div>
+                            </div>
+                        </div> <!-- col end -->
+                        <div class="col-lg-12 d-none d-sm-block d-lg-none">
+                                <a href="#ceiling" class="btn btn-secondary btn-lg fw-bolder mb-3 w-50">Back to top</a>
+                        </div>
+
+                        <div class="col-sm-12 col-lg-4">
+                            <!-- Cards -->
+                            <div class="card bg-dark text-light mb-5 mb-lg-3" id="sushi">
+                                <div class="card-body">
+                                    <div class="card-title display-5 mb-4 fw-bolder">Sushi</div>
+                                    <div class="card-text lead">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit saepe ut tempore repellendus, 
+                                        animi voluptates nobis illo sit aliquid quisquam odio voluptatem excepturi laboriosam atque commodi sequi. 
+                                        Voluptates error ut et praesentium doloribus magni earum necessitatibus neque atque adipisci, consectetur molestias velit amet vel 
+                                        quibusdam mollitia veritatis dignissimos doloremque? Laboriosam non eligendi repellat, fugit neque quia omnis quae consectetur eius qui 
+                                        voluptate tempore blanditiis consequatur eveniet illo veniam maiores voluptatibus nemo dolores, mollitia quaerat rerum accusamus doloribus. 
+                                        Maxime non, facere aliquam, ad illum fuga architecto a voluptates velit sint ex earum sequi excepturi fugit. Possimus natus aliquid veritatis 
+                                        laboriosam aspernatur?
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit saepe ut tempore repellendus, 
+                                        animi voluptates nobis illo sit aliquid quisquam odio voluptatem excepturi laboriosam atque commodi sequi. 
+                                        Voluptates error ut et praesentium doloribus magni earum necessitatibus neque atque adipisci, consectetur molestias velit amet vel 
+                                        quibusdam mollitia veritatis dignissimos doloremque? Laboriosam non eligendi repellat, fugit neque quia omnis quae consectetur eius qui 
+                                        voluptate tempore blanditiis consequatur eveniet illo veniam maiores voluptatibus nemo dolores, mollitia quaerat rerum accusamus doloribus. 
+                                        Maxime non, facere aliquam, ad illum fuga architecto a voluptates velit sint ex earum sequi excepturi fugit. Possimus natus aliquid veritatis 
+                                        laboriosam aspernatur?
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit saepe ut tempore repellendus, 
+                                        animi voluptates nobis illo sit aliquid quisquam odio voluptatem excepturi laboriosam atque commodi sequi. 
+                                        Voluptates error ut et praesentium doloribus magni earum necessitatibus neque atque adipisci, consectetur molestias velit amet vel 
+                                        quibusdam mollitia veritatis dignissimos doloremque? Laboriosam non eligendi repellat, fugit neque quia omnis quae consectetur eius qui 
+                                        voluptate tempore blanditiis consequatur eveniet illo veniam maiores voluptatibus nemo dolores, mollitia quaerat rerum accusamus doloribus. 
+                                        Maxime non, facere aliquam, ad illum fuga architecto a voluptates velit sint ex earum sequi excepturi fugit. Possimus natus aliquid veritatis 
+                                        laboriosam aspernatur?
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit saepe ut tempore repellendus, 
+                                        animi voluptates nobis illo sit aliquid quisquam odio voluptatem excepturi laboriosam atque commodi sequi. 
+                                        Voluptates error ut et praesentium doloribus magni earum necessitatibus neque atque adipisci, consectetur molestias velit amet vel 
+                                        quibusdam mollitia veritatis dignissimos doloremque? Laboriosam non eligendi repellat, fugit neque quia omnis quae consectetur eius qui 
+                                        voluptate tempore blanditiis consequatur eveniet illo veniam maiores voluptatibus nemo dolores, mollitia quaerat rerum accusamus doloribus. 
+                                        Maxime non, facere aliquam, ad illum fuga architecto a voluptates velit sint ex earum sequi excepturi fugit. Possimus natus aliquid veritatis 
+                                        laboriosam aspernatur?
+                                    </div>
+                                    <a href="#ceiling" class="btn btn-secondary btn-lg mt-3 fw-bolder d-lg-none w-50">Back to top</a>
+                                </div>
+                            </div>
+                        </div> <!-- col end -->
+                        <a href="#ceiling" class="btn btn-secondary btn-lg fw-bolder mb-3 w-50 d-none d-lg-block">Back to top</a> <!-- End of cards -->
+                        </div>
+                    </div>
+            </div> <!-- End of content container -->
+        </section>
 
     </body>
 </html>
