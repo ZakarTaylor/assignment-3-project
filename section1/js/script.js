@@ -1,4 +1,41 @@
-var x;
+$(function(){
+    $("#navbarToggle").blur(function (event){
+        var screenWidth = window.innerWidth;
+        if(screenWidth < 768){
+            $("#collapse").collapse('hide')
+        }
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* var x;
 if (x == undefined){
     console.log("creating value...");
     x = 5;
@@ -40,3 +77,4 @@ Dog.prototype = function(){
 }
 
 
+ */
